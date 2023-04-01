@@ -352,7 +352,9 @@ if __name__ == "__main__":
 # 포스팅 제목과 내용을 생성할 때 사용할 주제 키워드 목록은 미리 제공되는 것인가요, 
 # 아니면 코드 내에서 검색할 것인가요?
 # 주제 키워드를 검색할 때, Google 검색 대신 다른 검색 엔진을 사용하거나, 
-# 검색 API를 활용할 계획이 있나요?
+# 검색 
+
+를 활용할 계획이 있나요?
 # 자동 생성할 주제를 물어보는 코드를 작성할 때, 사용자가 입력한 단어나 문장을 
 # 기반으로 추천 주제를 생성할 것인가요, 아니면 미리 정해놓은 주제 키워드를 활용할 것인가요?
 
@@ -808,7 +810,7 @@ if __name__ == "__main__":
 def generate_topic():
     # API endpoint와 API key
     endpoint = "https://api.openai.com/v1/engines/davinci-codex/completions"
-    api_key = "<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" # 본인 api key
+    api_key = "" # 본인 api key
 
     # prompt 설정
     prompt = (
